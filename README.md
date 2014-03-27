@@ -11,7 +11,11 @@ This role doesn't require anything beyond the standard modules.
 Role Variables
 --------------
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+The following variables are defined, and their default values are listed.
+
+* `docker_apt_key_url`: http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xD8576A8BA88D21E9
+* `docker_apt_key_id`: A88D21E9
+* `docker_pkg_name`: lxc-docker
 
 Dependencies
 ------------
