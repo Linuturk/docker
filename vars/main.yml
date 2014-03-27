@@ -1,2 +1,5 @@
 ---
 # vars file for docker
+docker_apt_key_url: http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xD8576A8BA88D21E9
+docker_apt_key_id: A88D21E9
+docker_pkg_name: lxc-docker
