@@ -1,12 +1,12 @@
-Role Name
+docker
 ========
 
-A brief description of the role goes here.
+This role is responsible for installing docker and all dependencies.
 
 Requirements
 ------------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+This role doesn't require anything beyond the standard modules.
 
 Role Variables
 --------------
@@ -35,4 +35,4 @@ BSD
 Author Information
 ------------------
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+Justin Phelps
