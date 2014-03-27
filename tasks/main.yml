@@ -7,4 +7,4 @@
   template: src=saucy.list dest=/etc/apt/sources.list.d/docker.list owner=root group=root mode=0644
 
 - name: install the docker package
-  apt: name=lxc-docker state=installed
+  apt: name=lxc-docker state=present update_cache=yes
