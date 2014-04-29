@@ -16,6 +16,7 @@ The following variables are defined, and their default values are listed.
 * `docker_apt_key_url`: http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xD8576A8BA88D21E9
 * `docker_apt_key_id`: A88D21E9
 * `docker_pkg_name`: lxc-docker
+* `docker_registry`: False
 
 Dependencies
 ------------
@@ -30,7 +31,7 @@ Here is a simple example playbook:
     ---
     - hosts: all
       roles:
-        - Rackspace_Automation.docker
+        - { role: Rackspace_Automation.docker, docker_registry: True }
 
 License
 -------

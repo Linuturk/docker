@@ -8,3 +8,7 @@
 
 - name: install the docker package
   apt: name={{ docker_pkg_name }} state=present update_cache=yes
+
+- name: start registry image
+  docker: image=registry ports=5000
+  when: docker_registry == "True"
