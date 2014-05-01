@@ -3,6 +3,8 @@ docker
 
 This role is responsible for installing docker and all dependencies.
 
+[![Build Status](http://drone.onitato.com/github.com/rack-roles/docker/status.svg?branch=master)](http://drone.onitato.com/github.com/rack-roles/docker)
+
 Requirements
 ------------
 
