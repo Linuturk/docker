@@ -23,7 +23,7 @@ The following variables are defined, and their default values are listed.
 Dependencies
 ------------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+None
 
 Example Playbook
 -------------------------
@@ -43,4 +43,6 @@ BSD
 Author Information
 ------------------
 
-Justin Phelps
+[Rackspace - the open cloud company](http://rackspace.com)
+
+Ask about our DevOps Automation Service - [www.rackspace.com/devops](http://rackspace.com/devops)
