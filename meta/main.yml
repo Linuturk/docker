@@ -74,8 +74,8 @@ galaxy_info:
   #  - precise
   #  - quantal
   #  - raring
-    - saucy
-  #  - trusty
+  #  - saucy
+    - trusty
   #- name: SLES
   #  versions:
   #  - all
